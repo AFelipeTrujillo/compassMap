@@ -7,10 +7,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HomeController {
 
-    @GetMapping("/")
-    public String home(Model model) {
+    @GetMapping("/home1")
+    public String home1(Model model) {
         model.addAttribute("title", "Compass Map");
         model.addAttribute("message", "Welcome to Compass Map!");
-        return "home";
+        return "home1";
+    }
+
+    @GetMapping("/home2")
+    public String home2(Model model) {
+        model.addAttribute("title", "Compass Map");
+        model.addAttribute("message", "Welcome to Compass Map!");
+        return "home2";
     }
 }
