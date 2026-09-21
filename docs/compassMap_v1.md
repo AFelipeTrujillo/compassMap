@@ -18,6 +18,8 @@ Historical notes:
 
 ### Product Goal
 
+Generar roadmaps de aprendizaje personalizados a partir de una matriz 2×2 (saber programar × querer aprender).  
+Whitepaper del producto: [docs/whitepaper.md](./whitepaper.md)
 
 
 ### Version goal
