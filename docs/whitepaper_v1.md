@@ -18,8 +18,7 @@ Basándose en una matriz de perfiles estructurada a partir de dos variables clav
 Para garantizar un desarrollo colaborativo ordenado y seguro en el repositorio, el equipo de desarrollo sigue estrictamente el flujo de trabajo ilustrado en el siguiente diagrama de Mermaid:
 
 ```mermaid
-workflow
-    direction TB
+graph TB
     RepoPrincipal["Repositorio Principal (Remote)"]
     ForkDev["Fork en Repo Local / Remoto del Dev"]
     RamaMaster["Rama Master (Local)"]
