@@ -1,0 +1,56 @@
+package com.example.demo;
+
+public class Customer {
+
+    //fields or attributes
+    //variables to model, define, configure, identify ,etc ...
+    // when we create an object
+    private Long id;
+    private String firstName;
+    private String lastName;
+
+
+    //constructor
+    //we use to instantiate the class
+    protected Customer() {}
+
+    public Customer(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    // methods
+    public String toString() {
+        return String.format(
+                "Customer[id=%d, firstName='%s', lastName='%s']",
+                id, firstName, lastName);
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public Long getALotOfMoney(){
+        return 10L;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+}
